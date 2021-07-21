@@ -1,0 +1,38 @@
+/* fff5ec WHITE */
+/* ffedde PINK */
+/* 35cd8c  GREEN */
+
+.hero {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.nav-bar {
+  height: 80px;
+}
+
+#logo {
+  font-weight: 900;
+  font-size: 30px;
+  color: #fe043c;
+}
+
+.links {
+  width: 30%;
+}
+
+.login {
+  width: 25%;
+  z-index: 99;
+}
+
+.underlay {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+
+  width: 400px;
+  height: 100vh;
+  background-color: #fe043c;
+  z-index: 1;
+}
