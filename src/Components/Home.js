@@ -4,6 +4,7 @@ import { Navbar } from "./Navbar";
 import { Products } from "./Products";
 import { useHistory } from "react-router-dom";
 import { auth } from "../Config/Config";
+import "../Styles/Home.css";
 
 export const Home = ({ user }) => {
   const history = useHistory();

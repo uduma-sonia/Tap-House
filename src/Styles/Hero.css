@@ -4,7 +4,7 @@
 
 .hero {
   font-family: "Poppins", sans-serif;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .nav-bar {
@@ -21,6 +21,10 @@
   width: 30%;
 }
 
+.nav-bar li {
+  color: #2e266f;
+}
+
 .login {
   width: 25%;
   z-index: 99;
@@ -35,4 +39,47 @@
   height: 100vh;
   background-color: #fe043c;
   z-index: 1;
+}
+
+.hero-section-left {
+  height: 80vh;
+  width: 50%;
+}
+
+.hero-section-left h2 {
+  font-family: "Titillium Web", sans-serif;
+  color: #e2e0e0;
+}
+
+.hero-section-left h3 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #2e266f;
+}
+
+.hero-img {
+  right: 14%;
+  -webkit-filter: drop-shadow(5px 5px 5px #6b6969);
+  filter: drop-shadow(10px 20px 20px #181414);
+}
+
+.lettuce {
+  right: 16%;
+  top: 18%;
+  width: 300px;
+}
+
+.search-container {
+  background-color: #ffffff;
+  width: 84%;
+}
+
+.search-container label,
+.location {
+  background-color: #fe043c;
+}
+
+/* INTRO */
+.intro {
+  border: 2px solid black;
 }

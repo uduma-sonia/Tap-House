@@ -10,14 +10,14 @@ const Navbar = () => {
 
         <div class="flex-initial links ...">
           <ul className="flex flex-row justify-between">
-            <li className="flex-initial ...">About Us</li>
-            <li className="flex-initial ...">Contact</li>
-            <li className="flex-initial ...">Menu</li>
+            <li className="font-semibold flex-initial ...">About Us</li>
+            <li className="font-semibold flex-initial ...">Contact</li>
+            <li className="font-semibold flex-initial ...">Menu</li>
           </ul>
         </div>
 
         <div class="flex-initial text-right login ...">
-          <button class="bg-transparent  font-semibold  py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <button class="bg-transparent text-white font-semibold py-2 px-4 border border-blue-500 hover:border-transparent rounded">
             Login
           </button>
         </div>
