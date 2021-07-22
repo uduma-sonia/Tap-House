@@ -11,6 +11,8 @@ const Hero = () => {
 
       <div className="underlay"></div>
 
+      {/* HERO-SECTION */}
+
       <section className="hero-section">
         <div class="flex justify-between">
           <div class="flex-initial hero-section-left pt-24 ...">
@@ -39,26 +41,29 @@ const Hero = () => {
           </div>
 
           <div class="flex-initial hero-section-right ...">
-            <img className="hero-img absolute  z-20 " src={heroImg} />
+            <img className="hero-img absolute  z-20" src={heroImg} />
             <img className="lettuce absolute z-10" src={lettuce} />
           </div>
         </div>
       </section>
 
+      {/* INTRO */}
+
       <section className="intro mt-28">
-        <div class="flex justify-between">
-          <div class="intro-1 flex-initial w-6/12 ...">
-            <h3>some top restaurant for dining in or take away</h3>
+        <div class="flex justify-between items-center">
+          <div class="flex-initial w-6/12 ...">
+            <h3 className="font-bold capitalize pl-4">
+              some top restaurant for <br /> dining in or take away!
+            </h3>
           </div>
 
-          <div class="flex-initial w-6/12 ...">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+          <div class="flex-initial w-6/12 text-gray-600 ...">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+            </p>
           </div>
         </div>
       </section>

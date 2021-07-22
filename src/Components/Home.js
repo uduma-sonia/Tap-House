@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Hero from "./Hero/Hero";
+import Booking from "./Booking/Booking";
 import { Navbar } from "./Navbar";
 import { Products } from "./Products";
 import { useHistory } from "react-router-dom";
@@ -21,6 +22,7 @@ export const Home = ({ user }) => {
   return (
     <div className="wrapper">
       <Hero />
+      <Booking />
       {/* <Navbar user={user} />
             <Products /> */}
     </div>

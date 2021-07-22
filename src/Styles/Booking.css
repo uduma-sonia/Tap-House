@@ -1,0 +1,86 @@
+.booking-overlay {
+  background-color: #fe043a9c;
+}
+
+.order {
+  color: #fe043aaf;
+}
+
+.burger-container::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 70%;
+  right: -9%;
+  bottom: 0;
+  border: 10px dotted rgb(214, 216, 216);
+  border-left: none;
+  z-index: 99;
+}
+
+.burger-container::before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 0%;
+  right: 0%;
+  bottom: -9%;
+  border: 10px dotted rgb(214, 216, 216);
+  border-top: none;
+  z-index: 99;
+}
+
+.pizza-container::after {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 0%;
+  left: 3%;
+  top: -9%;
+  border: 10px dotted rgb(214, 216, 216);
+  border-bottom: none;
+  z-index: 99;
+}
+
+.pizza-container::before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 0%;
+  left: 3%;
+  top: -17%;
+  border: 10px dotted rgb(214, 216, 216);
+  border-bottom: none;
+  z-index: 99;
+}
+
+.a-booking {
+  height: 80vh;
+  background-color: #ffedde;
+}
+
+.form-container::after {
+  position: absolute;
+  content: "";
+  width: 30%;
+  height: 50%;
+  top: -8%;
+  right: -3%;
+  border: 9px dotted rgb(221, 219, 219);
+  border-bottom: none;
+  border-left: none;
+  z-index: 99;
+}
+
+.form-container::before {
+  position: absolute;
+  content: "";
+  width: 30%;
+  height: 50%;
+  top: -15%;
+  right: -6%;
+  border: 9px dotted rgb(221, 219, 219);
+  border-bottom: none;
+  border-left: none;
+  z-index: 99;
+}
