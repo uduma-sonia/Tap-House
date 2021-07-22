@@ -4,3 +4,20 @@
   letter-spacing: 1px;
   border-left: 10px solid #fe043c;
 }
+
+.servicesGrid h4 {
+  color: #2e266f;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.service-left1,
+.service-left4 {
+  background-color: #ffedde;
+}
+
+.service-left1 i,
+.service-left4 i {
+  color: #fe043c;
+}
