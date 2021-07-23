@@ -25,6 +25,7 @@ export const Home = ({ user }) => {
       <Hero />
       <Booking />
       <Services />
+      <Products />
       {/* <Navbar user={user} />
             <Products /> */}
     </div>

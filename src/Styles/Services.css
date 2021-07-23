@@ -1,23 +1,42 @@
+.bg-dot {
+  position: absolute;
+  width: 1300px;
+  height: 150%;
+  top: -25%;
+  left: -8%;
+
+  background-image: radial-gradient(#e2e1e1 10%, transparent 11%),
+    radial-gradient(#e2e1e1 10%, transparent 11%);
+  background-size: 30px 30px;
+  background-position: 0 0, 30px 30px;
+  background-repeat: repeat;
+}
+
 .service h3 {
   color: #2e266f;
   font-size: 32px;
   letter-spacing: 1px;
-  border-left: 10px solid #fe043c;
+  border-left: 10px solid rgb(254, 4, 60);
 }
 
 .servicesGrid h4 {
   color: #2e266f;
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: 1px;
   font-weight: 700;
 }
 
 .service-left1,
-.service-left4 {
+.service-left4,
+.service-right {
   background-color: #ffedde;
 }
 
 .service-left1 i,
 .service-left4 i {
   color: #fe043c;
+}
+
+.service-right p {
+  border-bottom: 3px solid #fe043c;
 }
