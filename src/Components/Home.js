@@ -7,6 +7,7 @@ import { useHistory } from "react-router-dom";
 import { auth } from "../Config/Config";
 import "../Styles/Home.css";
 import Services from "./Services/Services";
+import Download from "./Download";
 
 export const Home = ({ user }) => {
   const history = useHistory();
@@ -26,6 +27,7 @@ export const Home = ({ user }) => {
       <Booking />
       <Services />
       <Products />
+      <Download />
       {/* <Navbar user={user} />
             <Products /> */}
     </div>

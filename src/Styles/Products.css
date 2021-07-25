@@ -1,0 +1,12 @@
+.product-name,
+.product-container h3 {
+  color: #2e266f;
+}
+
+.product-container h3 {
+  font-size: 32px;
+}
+
+.product-price {
+  color: #fe043c;
+}

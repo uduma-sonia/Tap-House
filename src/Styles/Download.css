@@ -1,0 +1,11 @@
+.download-container {
+  background-color: #ffedde;
+}
+
+.download-container h3 {
+  color: #2e266f;
+  letter-spacing: 1px;
+  font-size: 32px;
+
+  border-left: 10px solid rgb(254, 4, 60);
+}
