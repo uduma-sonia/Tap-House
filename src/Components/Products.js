@@ -21,9 +21,11 @@ export const Products = () => {
         </p>
       </div>
 
-      <section className="grid grid-cols-3 gap-5">
+      <section className="grid grid-cols-3 gap-5 relative">
         {products.length === 0 && (
-          <div>slow internet...no products to display</div>
+          <div id="loader-wrapper">
+            <div id="loader"></div>
+          </div>
         )}
         {products.map((product) => (
           <div
@@ -50,7 +52,7 @@ export const Products = () => {
 
             <div className="px-3">
               <button
-                className="addcart-btn border px-3 py-1"
+                className="addcart-btn px-3 py-1 font-semibold"
                 onClick={() =>
                   dispatch({
                     type: "ADD_TO_CART",
