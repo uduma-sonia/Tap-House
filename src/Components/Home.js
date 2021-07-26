@@ -24,7 +24,7 @@ export const Home = ({ user }) => {
 
   return (
     <div className="wrapper">
-      <Hero />
+      <Hero user={user} />
       <Booking />
       <Services />
       <Products />

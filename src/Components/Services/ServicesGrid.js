@@ -1,6 +1,7 @@
 import React from "react";
 import delivery from "../../images/delivery.png";
-import wavyBurger from "../../images/wavyBurger.png";
+import burger from "../../images/burger.svg";
+import eating from "../../images/eating.svg";
 
 const ServicesGrid = () => {
   return (
@@ -12,7 +13,7 @@ const ServicesGrid = () => {
           {/* LEFT GRID TOP  */}
           <div className="flex justify-between mb-3">
             <div className="flex-initial flex justify-center items-center w-2/4  h-52 service-left1">
-              <i className="fas fa-utensils text-8xl"></i>
+              <img src={eating} className="w-32" />
             </div>
 
             <div className="flex-initial flex flex-col justify-center items-center text-center w-2/4  h-52 service-left2">
@@ -41,7 +42,7 @@ const ServicesGrid = () => {
             </div>
 
             <div className="flex-initial relative flex justify-center items-center w-2/4  h-52 service-left4">
-              <img src={wavyBurger} className="w-32 " />
+              <img src={burger} className="w-32 " />
             </div>
           </div>
         </div>

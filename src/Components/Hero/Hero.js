@@ -4,18 +4,18 @@ import "../../Styles/Hero.css";
 import heroImg from "../../images/heroImg.png";
 import lettuce from "../../images/lettuce.png";
 
-const Hero = () => {
+const Hero = ({ user }) => {
   return (
     <div className="container hero">
-      <Navbar />
+      <Navbar user={user} />
 
       <div className="underlay"></div>
 
       {/* HERO-SECTION */}
 
       <section className="hero-section">
-        <div class="flex justify-between">
-          <div class="flex-initial hero-section-left pt-24 ...">
+        <div className="flex justify-between">
+          <div className="flex-initial hero-section-left pt-24 ...">
             <h2 className="text-8xl tracking-wide">Food</h2>
 
             <h3>
@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div class="flex-initial hero-section-right ...">
+          <div className="flex-initial hero-section-right ...">
             <img className="hero-img absolute  z-20" src={heroImg} />
             <img className="lettuce absolute z-10" src={lettuce} />
           </div>
@@ -50,14 +50,14 @@ const Hero = () => {
       {/* INTRO */}
 
       <section className="intro mt-28">
-        <div class="flex justify-between items-center">
-          <div class="flex-initial w-6/12 ...">
+        <div className="flex justify-between items-center">
+          <div className="flex-initial w-6/12 ...">
             <h3 className="font-bold capitalize pl-4">
               some top restaurant for <br /> dining in or take away!
             </h3>
           </div>
 
-          <div class="flex-initial w-6/12 text-gray-600 ...">
+          <div className="flex-initial w-6/12 text-gray-600 ...">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

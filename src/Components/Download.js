@@ -7,8 +7,8 @@ const Download = () => {
   return (
     <div className="relative download-container py-20">
       <div className="container">
-        <div class="flex justify-between h-96">
-          <div class="flex-initial flex flex-col justify-center items-start w-2/4">
+        <div className="flex justify-between h-96">
+          <div className="flex-initial flex flex-col justify-center items-start w-2/4">
             <h3 className="capitalize text-3xl font-bold pl-4 py-1">
               Download app for <br /> exciting deals
             </h3>
@@ -20,7 +20,7 @@ const Download = () => {
             </p>
           </div>
 
-          <div class="relative flex-initial w-2/4">
+          <div className="relative flex-initial w-2/4">
             <img src={downloadImg} className="absolute -top-20 z-20" />
             <img src={cabbage} className="absolute -top-10 -left-16 z-0" />
           </div>

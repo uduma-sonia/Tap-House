@@ -5,8 +5,8 @@ import leaf from "../images/leaf.png";
 const Footer = () => {
   return (
     <footer className="container pt-36 pb-10 relative">
-      <div class="flex justify-center items-center">
-        <div class="flex-initial text-center">
+      <div className="flex justify-center items-center">
+        <div className="flex-initial text-center">
           <h3 className="capitalize text-3xl font-semibold">
             get notified <br /> about amazing new recipes
           </h3>
@@ -22,7 +22,7 @@ const Footer = () => {
                 className="h-full outline-none text-xl"
                 placeholder="E-Mail"
               />
-              <i class="fas fa-arrow-circle-right"></i>
+              <i className="fas fa-arrow-circle-right"></i>
             </div>
           </form>
 
@@ -37,13 +37,13 @@ const Footer = () => {
       <div className="mt-10">
         <ul className="text-base flex items-center justify-end">
           <li>
-            <i class="fab fa-facebook-f"></i>
+            <i className="fab fa-facebook-f"></i>
           </li>
           <li className="mx-4">
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
           </li>
           <li>
-            <i class="fab fa-twitter"></i>
+            <i className="fab fa-twitter"></i>
           </li>
           <li className="ml-5 font-bold">@2021 Tap House</li>
         </ul>
