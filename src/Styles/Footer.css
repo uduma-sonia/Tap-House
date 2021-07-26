@@ -1,0 +1,14 @@
+footer h3 {
+  color: #2e266f;
+  letter-spacing: 1px;
+  font-size: 28px;
+}
+
+form i {
+  color: #fe043c;
+  font-size: 28px;
+}
+
+footer li {
+  cursor: pointer;
+}

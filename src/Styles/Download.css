@@ -9,3 +9,8 @@
 
   border-left: 10px solid rgb(254, 4, 60);
 }
+
+.download-container img {
+  -webkit-filter: drop-shadow(5px 5px 5px #6b6969);
+  filter: drop-shadow(10px 20px 20px #6b6969);
+}

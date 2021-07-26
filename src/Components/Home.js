@@ -8,6 +8,7 @@ import { auth } from "../Config/Config";
 import "../Styles/Home.css";
 import Services from "./Services/Services";
 import Download from "./Download";
+import Footer from "./Footer";
 
 export const Home = ({ user }) => {
   const history = useHistory();
@@ -28,6 +29,7 @@ export const Home = ({ user }) => {
       <Services />
       <Products />
       <Download />
+      <Footer />
       {/* <Navbar user={user} />
             <Products /> */}
     </div>
