@@ -16,7 +16,7 @@ const Hero = ({ user }) => {
       <section className="hero-section">
         <div className="flex justify-between">
           <div className="flex-initial hero-section-left pt-24 ...">
-            <h2 className="text-8xl tracking-wide">Food</h2>
+            <h2 className="text-9xl tracking-wide">Food</h2>
 
             <h3>
               Discover Restaurant <br /> & Delicious Food

@@ -52,7 +52,7 @@ export const Products = () => {
 
             <div className="px-3">
               <button
-                className="addcart-btn px-3 py-1 font-semibold"
+                className="addcart-btn px-3 py-1 font-semibold text-white"
                 onClick={() =>
                   dispatch({
                     type: "ADD_TO_CART",
