@@ -40,9 +40,13 @@ const Hero = ({ user }) => {
             </div>
           </div>
 
-          <div className="flex-initial hero-section-right ...">
-            <img className="hero-img absolute  z-20" src={heroImg} />
-            <img className="lettuce absolute z-10" src={lettuce} />
+          <div className="flex-initial hero-section-right">
+            <img alt="food" className="hero-img absolute  z-20" src={heroImg} />
+            <img
+              alt="lettuce"
+              className="lettuce absolute z-10"
+              src={lettuce}
+            />
           </div>
         </div>
       </section>
@@ -57,7 +61,7 @@ const Hero = ({ user }) => {
             </h3>
           </div>
 
-          <div className="flex-initial w-6/12 text-gray-600 ...">
+          <div className="flex-initial w-6/12 text-gray-600">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

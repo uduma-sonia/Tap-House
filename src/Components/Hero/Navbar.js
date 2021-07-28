@@ -43,7 +43,10 @@ const Navbar = ({ user }) => {
 
           {user && (
             <div className="flex justify-center items-center">
-              <button className="bg-transparent text-white cursor-pointer font-semibold py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+              <button
+                onClick={handleLogout}
+                className="bg-transparent text-white cursor-pointer font-semibold py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+              >
                 Logout
               </button>
               <button className="bg-transparent text-white cursor-pointer font-semibold py-2 pl-4 rounded">

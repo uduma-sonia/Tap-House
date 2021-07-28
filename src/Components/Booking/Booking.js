@@ -10,7 +10,11 @@ const Booking = () => {
       <div className="flex">
         {/* PIZZA */}
         <div className="pizza-container flex-initial relative w-96 h-80 rounded-3xl mr-4 ...">
-          <img src={pizza} className="h-full object-cover rounded-3xl" />
+          <img
+            alt="pizza"
+            src={pizza}
+            className="h-full object-cover rounded-3xl"
+          />
 
           <div className="booking-overlay absolute bottom-0 w-full h-3/6 z-10 rounded-b-3xl px-4">
             <p className="text-white text-xl font-bold pt-2">
@@ -30,7 +34,11 @@ const Booking = () => {
 
         {/* BURGER */}
         <div className="burger-container flex-initial relative w-96 h-80 rounded-3xl ...">
-          <img src={burger} className="h-full object-fit rounded-3xl" />
+          <img
+            alt="burger"
+            src={burger}
+            className="h-full object-fit rounded-3xl"
+          />
 
           <div className="booking-overlay absolute bottom-0 w-full h-3/6 z-10 rounded-b-3xl px-4">
             <p className="text-white text-xl font-bold pt-2">Bison Burger</p>

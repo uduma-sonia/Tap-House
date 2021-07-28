@@ -13,7 +13,7 @@ const ServicesGrid = () => {
           {/* LEFT GRID TOP  */}
           <div className="flex justify-between mb-3">
             <div className="flex-initial flex justify-center items-center w-2/4  h-52 service-left1">
-              <img src={eating} className="w-32" />
+              <img src={eating} alt="eatingpics" className="w-32" />
             </div>
 
             <div className="flex-initial flex flex-col justify-center items-center text-center w-2/4  h-52 service-left2">
@@ -42,14 +42,14 @@ const ServicesGrid = () => {
             </div>
 
             <div className="flex-initial relative flex justify-center items-center w-2/4  h-52 service-left4">
-              <img src={burger} className="w-32 " />
+              <img src={burger} alt="burger" className="w-32 " />
             </div>
           </div>
         </div>
 
         {/* RIGHT GRID */}
         <div className="flex-initial flex flex-col justify-center items-center text-center z-50 w-2/4 ml-5 service-right">
-          <img src={delivery} className="w-64 pb-3" />
+          <img src={delivery} alt="delivery" className="w-64 pb-3" />
 
           <h4>
             Delivery At Your <br /> Door Steps

@@ -59,6 +59,16 @@
   background-color: #ffedde;
 }
 
+.a-booking h3 {
+  color: #2e266f;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.submit{
+  background-color: #fe043c;
+}
+
 .form-container::after {
   position: absolute;
   content: "";

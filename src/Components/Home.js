@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Hero from "./Hero/Hero";
 import Booking from "./Booking/Booking";
-import { Navbar } from "./Navbar";
 import { Products } from "./Products";
 import { useHistory } from "react-router-dom";
 import { auth } from "../Config/Config";
@@ -30,8 +29,6 @@ export const Home = ({ user }) => {
       <Products />
       <Download />
       <Footer />
-      {/* <Navbar user={user} />
-            <Products /> */}
     </div>
   );
 };

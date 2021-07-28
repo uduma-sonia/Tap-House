@@ -21,8 +21,16 @@ const Download = () => {
           </div>
 
           <div className="relative flex-initial w-2/4">
-            <img src={downloadImg} className="absolute -top-20 z-20" />
-            <img src={cabbage} className="absolute -top-10 -left-16 z-0" />
+            <img
+              src={downloadImg}
+              alt="downloadImg"
+              className="absolute -top-20 z-20"
+            />
+            <img
+              src={cabbage}
+              alt="cabbage"
+              className="absolute -top-10 -left-16 z-0"
+            />
           </div>
         </div>
       </div>

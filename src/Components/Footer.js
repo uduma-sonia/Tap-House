@@ -49,7 +49,11 @@ const Footer = () => {
         </ul>
       </div>
 
-      <img src={leaf} className="h-96 w-96 absolute top-0 -left-24" />
+      <img
+        src={leaf}
+        alt="leaf"
+        className="h-96 w-96 absolute top-0 -left-24"
+      />
     </footer>
   );
 };
