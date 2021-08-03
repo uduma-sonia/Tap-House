@@ -3,10 +3,10 @@
   font-family: "Poppins", sans-serif;
 }
 
-.cart-card{
-    background-color: rgb(252, 230, 210);
-    -webkit-filter: drop-shadow(3px 3px 3px #a3a1a1);
-    filter: drop-shadow(5px 10px 5px #dbd9d9);
+.cart-card {
+  background-color: rgb(253, 238, 224);
+  -webkit-filter: drop-shadow(3px 3px 3px #dfdfdf);
+  filter: drop-shadow(5px 10px 5px #dbd9d9);
 }
 
 .backlink {
@@ -16,5 +16,9 @@
 
 #cart i {
   color: #2e266f;
-  font-size: 20px;
+  cursor: pointer;
+}
+
+.cart-container {
+  margin: 0 auto;
 }
