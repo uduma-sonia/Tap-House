@@ -22,3 +22,12 @@
 .cart-container {
   margin: 0 auto;
 }
+
+.cart-summary-price {
+  color: #2e266f;
+}
+
+.checkout-btn{
+  background-color: #2e266f;
+  color: #ffffff;
+}

@@ -128,23 +128,27 @@ export const Cart = ({ user }) => {
             ))}
 
           {shoppingCart.length > 0 && (
-            <div className="cart-summary">
-              <div className="cart-summary-heading">Cart-Summary</div>
-              <div className="cart-summary-price">
-                <span>Total Price</span>
-                <span>{totalPrice}</span>
-              </div>
+            <div className="cart-summary flex justify-end mt-5">
+              <div>
+                <div>
+                  <span className="mr-3 font-medium text-gray-900 text-base">
+                    Total:
+                  </span>
+                  <span className="cart-summary-price text-lg font-bold">
+                    ${totalPrice}.00
+                  </span>
+                </div>
 
-              <div className="cart-summary-price">
-                <span>Total Qty</span>
-                <span>{totalQty}</span>
-              </div>
+                <div className="text-gray-400 text-sm my-4">
+                  <p>Delivery Fee Not Included</p>
+                </div>
 
-              <Link to="cashout" className="cashout-link">
-                <button style={{ marginTop: 5 + "px" }}>
-                  Cash on delivery
-                </button>
-              </Link>
+                <Link to="cashout" className="cashout-link">
+                  <button className="py-2 px-4 checkout-btn">
+                    PROCEED TO CHECKOUT
+                  </button>
+                </Link>
+              </div>
             </div>
           )}
         </div>
@@ -152,60 +156,3 @@ export const Cart = ({ user }) => {
     </div>
   );
 };
-
-// {shoppingCart &&
-//   shoppingCart.map((cart) => (
-//     <div className="cart-card flex items-center text-lg justify-between p-2 mb-2 rounded-lg">
-//       <div className="h-36 w-36">
-//         <img
-//           src={cart.ProductImg}
-//           alt="not found"
-//           className="h-full w-full object-cover"
-//         />
-//       </div>
-
-//       <div className="cart-name font-semibold">
-//         {cart.ProductName}
-//       </div>
-
-//       <div className="cart-price-orignal">
-//         ${cart.ProductPrice}.00
-//       </div>
-
-//       <div className="flex items-center">
-//         <div className="quantity mr-3">{cart.qty}</div>
-
-//         <div>
-//           <div
-//             onClick={() =>
-//               dispatch({ type: "INC", id: cart.ProductID, cart })
-//             }
-//           >
-//             <i className="fa fa-plus-circle" aria-hidden="true"></i>
-//           </div>
-
-//           <div
-//             className="dec"
-//             onClick={() =>
-//               dispatch({ type: "DEC", id: cart.ProductID, cart })
-//             }
-//           >
-//             <i className="fa fa-minus-circle" aria-hidden="true"></i>
-//           </div>
-//         </div>
-//       </div>
-
-//       <div className="cart-price">${cart.TotalProductPrice}.00</div>
-
-//       <div className="cart-price">$200.00</div>
-
-//       <button
-//         className="delete-btn"
-//         onClick={() =>
-//           dispatch({ type: "DELETE", id: cart.ProductID, cart })
-//         }
-//       >
-//         <i className="fa fa-trash" aria-hidden="true"></i>
-//       </button>
-//     </div>
-//   ))}
