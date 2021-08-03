@@ -43,24 +43,18 @@ export class App extends Component {
         <CartContextProvider>
           <BrowserRouter>
             <Switch>
-              {/* home */}
               <Route
                 exact
                 path="/"
                 component={() => <Home user={this.state.user} />}
               />
-              {/* signup */}
               <Route path="/signup" component={Signup} />
-              {/* login */}
               <Route path="/login" component={Login} />
-              {/* cart products */}
               <Route
                 path="/cartproducts"
                 component={() => <Cart user={this.state.user} />}
               />
-              {/* add products */}
               <Route path="/addproducts" component={AddProducts} />
-              {/* cashout */}
               <Route
                 path="/cashout"
                 component={() => <Cashout user={this.state.user} />}

@@ -60,7 +60,7 @@ export const Cashout = (props) => {
 
     return (
         <>
-            <Navbar user={props.user} />
+            {/* <Navbar user={props.user} /> */}
             <div className='container'>
                 <br />
                 <h2>Cashout Details</h2>
