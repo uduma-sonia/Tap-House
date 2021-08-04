@@ -10,7 +10,6 @@ export const Products = () => {
 
   return (
     <div className="container product-container mb-28">
-      {/* {products.length !== 0 && <h1>Products</h1>} */}
       <div className="text-center">
         <h3 className="capitalize text-3xl font-bold">explore our menu</h3>
 
