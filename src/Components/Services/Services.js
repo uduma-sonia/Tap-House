@@ -22,7 +22,6 @@ const Services = () => {
         </div>
       </section>
 
-      {/* SERVICE GRID */}
       <ServicesGrid />
     </div>
   );

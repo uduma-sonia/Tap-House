@@ -12,7 +12,6 @@ const Hero = ({ user }) => {
       <div className="underlay"></div>
 
       {/* HERO-SECTION */}
-
       <section className="hero-section">
         <div className="flex justify-between">
           <div className="flex-initial hero-section-left pt-24 ...">
@@ -52,7 +51,6 @@ const Hero = ({ user }) => {
       </section>
 
       {/* INTRO */}
-
       <section className="intro mt-28">
         <div className="flex justify-between items-center">
           <div className="flex-initial w-6/12 ...">

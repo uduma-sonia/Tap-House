@@ -44,7 +44,7 @@ export const Cart = ({ user }) => {
               </div>
             </>
           )}
-          {/* HEADING */}
+          {/* TITLE BAR  */}
           <section className="cart-heading flex justify-between px-2 text-sm text-gray-500 font-medium">
             <div className="w-2/5 flex">
               <p>ITEM</p>
@@ -60,7 +60,6 @@ export const Cart = ({ user }) => {
               <div className="cart-price">SUBTOTAL</div>
             </div>
           </section>
-          {/* HEADING */}
 
           {shoppingCart &&
             shoppingCart.map((cart) => (

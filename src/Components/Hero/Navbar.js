@@ -8,7 +8,7 @@ const Navbar = ({ user }) => {
   const history = useHistory();
   const { totalQty } = useContext(CartContext);
 
-  // handle logout
+  // FUNCTION TO HANDLE LOG OUT
   const handleLogout = () => {
     auth.signOut().then(() => {
       history.push("/login");
