@@ -65,7 +65,7 @@
   letter-spacing: 1px;
 }
 
-.submit{
+.submit {
   background-color: #fe043c;
 }
 
@@ -93,4 +93,34 @@
   border-bottom: none;
   border-left: none;
   z-index: 99;
+}
+
+@media only screen and (max-width: 500px) {
+  .booking-inner {
+    flex-direction: column;
+  }
+
+  .pizza-container,
+  .burger-container {
+    height: 17rem;
+    width: 17rem;
+    margin-top: 25px;
+  }
+
+  .order {
+    bottom: 0rem;
+    font-size: 16px;
+    width: 7rem;
+  }
+
+  .burger-container {
+    margin-left: 90px;
+  }
+
+  .pizza-container::before,
+  .pizza-container::after,
+  .burger-container::after,
+  .burger-container::before {
+    display: none;
+  }
 }

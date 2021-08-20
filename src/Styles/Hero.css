@@ -25,7 +25,6 @@
   position: absolute;
   top: 0%;
   right: 0%;
-
   width: 400px;
   height: 100vh;
   background-color: #fe043c;
@@ -77,4 +76,77 @@
   font-size: 32px;
   letter-spacing: 1px;
   border-left: 10px solid #fe043c;
+}
+
+@media only screen and (max-width: 500px) {
+  .nav-bar {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .underlay {
+    display: none;
+  }
+
+  .hero-section-left h2 {
+    font-size: 3.5rem;
+  }
+
+  .hero-section-left h3 {
+    font-size: 23px;
+  }
+
+  .search-container {
+    height: 2.5rem;
+  }
+
+  .search-container input {
+    width: 8rem;
+    padding-left: 5px;
+  }
+
+  .search-container label {
+    border-top-left-radius: 0px;
+    padding: 0px 15px;
+  }
+
+  .location {
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .break {
+    display: none;
+  }
+
+  .hero-img {
+    right: 14%;
+    -webkit-filter: drop-shadow(5px 5px 5px #929191);
+    filter: drop-shadow(10px 20px 20px #757575);
+    width: 150px;
+    bottom: 0;
+  }
+
+  .lettuce {
+    right: 10%;
+    top: 64%;
+    width: 150px;
+  }
+
+  .intro > div {
+    flex-direction: column;
+  }
+
+  .intro > div > div {
+    width: 100%;
+  }
+
+  .intro h3 {
+    font-size: 22px;
+    margin-bottom: 35px;
+  }
 }

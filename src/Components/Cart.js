@@ -5,11 +5,8 @@ import { useHistory } from "react-router-dom";
 import { auth } from "../Config/Config";
 import "../Styles/Cart.css";
 
-import pizza from "../images/pizza.jpg";
-
 export const Cart = ({ user }) => {
-  const { shoppingCart, dispatch, totalPrice, totalQty } =
-    useContext(CartContext);
+  const { shoppingCart, dispatch, totalPrice } = useContext(CartContext);
 
   const history = useHistory();
 

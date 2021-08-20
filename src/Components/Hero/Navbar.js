@@ -16,21 +16,27 @@ const Navbar = ({ user }) => {
   };
 
   return (
-    <div className="nav-bar pt-3">
+    <div className="nav-bar pt-3 relative">
       <div className="flex flex-row justify-between items-center">
         <div className="flex-initial cursor-pointer" id="logo">
           <p>Tap House</p>
         </div>
 
-        <div className="flex-initial links ...">
-          <ul className="flex flex-row justify-between">
-            <li className="font-semibold flex-initial cursor-pointer">
-              About Us
-            </li>
+        <div className="nav-btn">
+          <label htmlFor="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+
+        <div className="flex-initial links">
+          <ul className="flex flex-row justify-between nav-links">
+            <li className="font-semibold flex-initial cursor-pointer">About</li>
+            <li className="font-semibold flex-initial cursor-pointer">Menu</li>
             <li className="font-semibold flex-initial cursor-pointer">
               Contact
             </li>
-            <li className="font-semibold flex-initial cursor-pointer">Menu</li>
           </ul>
         </div>
 
@@ -53,7 +59,7 @@ const Navbar = ({ user }) => {
                 {user}
               </button>
 
-              <button className="bg-transparent cursor-pointer font-semibold py-2 ml-4 rounded">
+              <button className="border bg-transparent cursor-pointer font-semibold py-2 ml-4 rounded">
                 <Link to="cartproducts" className="navlink">
                   <i className="fas fa-shopping-cart text-white"></i>
                   <span className="text-white pl-1">{totalQty}</span>

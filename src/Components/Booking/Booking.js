@@ -7,9 +7,9 @@ import AdvanceBooking from "./AdvanceBooking";
 const Booking = () => {
   return (
     <div className="booking mt-28 px-1">
-      <div className="flex">
+      <div className="flex booking-inner">
         {/* PIZZA */}
-        <div className="pizza-container flex-initial relative w-96 h-80 rounded-3xl mr-4 ...">
+        <div className="pizza-container flex-initial relative w-96 h-80 rounded-3xl mr-4">
           <img
             alt="pizza"
             src={pizza}
@@ -22,8 +22,7 @@ const Booking = () => {
             </p>
 
             <p className="text-white text-base">
-              Bacon ipsum dolor amet boudin kielbasa pork corned beef, tail
-              pancetta
+              Bacon ipsum dolor amet boudin kielbasa pancetta
             </p>
           </div>
 
@@ -33,7 +32,7 @@ const Booking = () => {
         </div>
 
         {/* BURGER */}
-        <div className="burger-container flex-initial relative w-96 h-80 rounded-3xl ...">
+        <div className="burger-container flex-initial relative w-96 h-80 rounded-3xl">
           <img
             alt="burger"
             src={burger}
@@ -44,8 +43,7 @@ const Booking = () => {
             <p className="text-white text-xl font-bold pt-2">Bison Burger</p>
 
             <p className="text-white text-base">
-              Bacon ipsum dolor amet boudin kielbasa pork corned beef, tail
-              pancetta
+              Bacon ipsum dolor amet boudin kielbasa pancetta
             </p>
           </div>
 

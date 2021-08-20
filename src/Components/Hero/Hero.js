@@ -12,13 +12,13 @@ const Hero = ({ user }) => {
       <div className="underlay"></div>
 
       {/* HERO-SECTION */}
-      <section className="hero-section">
+      <section className="hero-section relative">
         <div className="flex justify-between">
-          <div className="flex-initial hero-section-left pt-24 ...">
+          <div className="flex-initial hero-section-left pt-24">
             <h2 className="text-9xl tracking-wide">Food</h2>
 
             <h3>
-              Discover Restaurant <br /> & Delicious Food
+              Discover Restaurant <br className="break" /> & Delicious Food
             </h3>
 
             <div className="flex search-container mt-6 h-12">
@@ -52,10 +52,11 @@ const Hero = ({ user }) => {
 
       {/* INTRO */}
       <section className="intro mt-28">
-        <div className="flex justify-between items-center">
-          <div className="flex-initial w-6/12 ...">
+        <div className="flex justify-between  items-center">
+          <div className="flex-initial w-6/12">
             <h3 className="font-bold capitalize pl-4">
-              some top restaurant for <br /> dining in or take away!
+              some top restaurant for <br className="break" /> dining in or take
+              away!
             </h3>
           </div>
 

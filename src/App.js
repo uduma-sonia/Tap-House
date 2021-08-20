@@ -26,7 +26,7 @@ export class App extends Component {
           .then((querySnapshot) => {
             querySnapshot.forEach((doc) => {
               // doc.data() is never undefined for query doc snapshots
-              console.log(doc.data().Name);
+              // console.log(doc.data().Name);
               this.setState({
                 user: doc.data().Name,
               });
