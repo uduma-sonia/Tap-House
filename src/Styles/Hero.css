@@ -124,16 +124,16 @@
   }
 
   .hero-img {
-    right: 14%;
+    right: 4%;
     -webkit-filter: drop-shadow(5px 5px 5px #929191);
     filter: drop-shadow(10px 20px 20px #757575);
-    width: 150px;
-    bottom: 0;
+    width: 180px;
+    bottom: -10%;
   }
 
   .lettuce {
-    right: 10%;
-    top: 64%;
+    right: 3%;
+    top: 66%;
     width: 150px;
   }
 

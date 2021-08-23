@@ -59,7 +59,7 @@ const Navbar = ({ user }) => {
                 {user}
               </button>
 
-              <button className="border bg-transparent cursor-pointer font-semibold py-2 ml-4 rounded">
+              <button className="bg-transparent cursor-pointer font-semibold py-2 ml-4 rounded">
                 <Link to="cartproducts" className="navlink">
                   <i className="fas fa-shopping-cart text-white"></i>
                   <span className="text-white pl-1">{totalQty}</span>

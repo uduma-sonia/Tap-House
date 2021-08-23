@@ -51,7 +51,7 @@ const AdvanceBooking = () => {
       <img
         src={cabbage}
         alt="cabbage"
-        className="absolute -right-72 bottom-60 "
+        className="absolute -right-72 bottom-60 a-cabbage"
       />
     </div>
   );
