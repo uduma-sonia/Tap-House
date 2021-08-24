@@ -43,7 +43,7 @@ const Hero = ({ user }) => {
             <img alt="food" className="hero-img absolute  z-20" src={heroImg} />
             <img
               alt="lettuce"
-              className="lettuce absolute z-10"
+              className="hero-lettuce absolute z-10"
               src={lettuce}
             />
           </div>

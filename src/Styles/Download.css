@@ -14,3 +14,37 @@
   -webkit-filter: drop-shadow(5px 5px 5px #6b6969);
   filter: drop-shadow(10px 20px 20px #6b6969);
 }
+
+@media only screen and (max-width: 500px) {
+  .download-container > div > div {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+  }
+
+  .download-container-left,
+  .download-container-right {
+    width: 100%;
+  }
+
+  .download-container-left h3 {
+    font-size: 22px;
+    margin-bottom: 35px;
+  }
+
+  .download-container-left p {
+    padding-right: 0px;
+    font-size: 14px;
+  }
+
+  .phone-img {
+    position: relative;
+    width: 350px;
+  }
+
+  .download-cabbage {
+    width: 300px;
+    left: 0%;
+    top: -5%;
+  }
+}

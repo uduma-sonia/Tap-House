@@ -14,9 +14,10 @@ export const Products = () => {
         <h3 className="capitalize text-3xl font-bold">explore our menu</h3>
 
         <p className="text-gray-600 text-base mb-5">
-          Bacon ipsum dolor amet jowl eiusmod ut venison in prosciutto <br />
-          buffalo drumstick. Magna laboris cupidatat minim <br /> porchetta
-          tongue. Tempor adipisicing chislic.
+          Bacon ipsum dolor amet jowl eiusmod ut venison in prosciutto{" "}
+          <br className="break" />
+          buffalo drumstick. Magna laboris cupidatat minim
+          <br className="break" /> porchetta tongue. Tempor adipisicing chislic.
         </p>
       </div>
 
@@ -39,7 +40,7 @@ export const Products = () => {
               />
             </div>
 
-            <div className="flex justify-between p-3">
+            <div className="flex justify-between p-3 product-card-detail">
               <div className="product-name font-semibold capitalize text-lg">
                 {product.ProductName}
               </div>
@@ -51,7 +52,7 @@ export const Products = () => {
 
             <div className="px-3">
               <button
-                className="addcart-btn px-3 py-1 font-semibold text-white"
+                className="addcart-btn px-3 py-1 font-semibold text-white rounded"
                 onClick={() =>
                   dispatch({
                     type: "ADD_TO_CART",

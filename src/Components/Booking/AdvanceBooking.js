@@ -14,7 +14,7 @@ const AdvanceBooking = () => {
             suits you
           </p>
 
-          <form className="flex justify-center mt-14">
+          <form className="flex justify-center mt-14 a-booking-form">
             <div className="flex flex-col items-start">
               <p className="mb-0 pl-2 font-semibold">E-Mail</p>
               <input
@@ -45,7 +45,7 @@ const AdvanceBooking = () => {
       <img
         src={lettuce}
         alt="lettuce"
-        className="absolute -left-72 top-0 h-full"
+        className="absolute -left-72 top-0 h-full a-lettuce"
       />
 
       <img

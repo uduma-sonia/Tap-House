@@ -23,7 +23,7 @@ const ServicesGrid = () => {
 
               <p className="text-sm text-gray-600 ">
                 Lorem ipsum dolor sit amet,
-                <br /> consectetur adipiscing elit, sed do
+                <br className="break" /> consectetur adipiscing elit, sed do
               </p>
             </div>
           </div>
@@ -37,7 +37,7 @@ const ServicesGrid = () => {
 
               <p className="text-sm text-gray-600">
                 Lorem ipsum dolor sit amet,
-                <br /> consectetur adipiscing elit, sed do
+                <br className="break" /> consectetur adipiscing elit, sed do
               </p>
             </div>
 
@@ -48,7 +48,7 @@ const ServicesGrid = () => {
         </div>
 
         {/* RIGHT GRID */}
-        <div className="flex-initial flex flex-col justify-center items-center text-center z-50 w-2/4 ml-5 service-right">
+        <div className="flex-initial flex flex-col justify-center items-center text-center z-50 w-2/4 service-right">
           <img src={delivery} alt="delivery" className="w-64 pb-3" />
 
           <h4>

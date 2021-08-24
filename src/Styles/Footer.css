@@ -1,7 +1,7 @@
 footer h3 {
   color: #2e266f;
   letter-spacing: 1px;
-  font-size: 28px;
+  /* font-size: 28px; */
 }
 
 form i {
@@ -11,4 +11,21 @@ form i {
 
 footer li {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  footer h3 {
+    font-size: 22px;
+  }
+
+  #footer-p {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .footer-leaf {
+    height: 20rem;
+    width: 20rem;
+    top: -20%;
+  }
 }

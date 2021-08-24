@@ -37,6 +37,42 @@
   color: #fe043c;
 }
 
+.service-right {
+  margin-left: 20px;
+}
+
 .service-right p {
   border-bottom: 3px solid #fe043c;
+}
+
+@media only screen and (max-width: 500px) {
+  .service > div {
+    flex-direction: column;
+  }
+
+  .service > div > div {
+    width: 100%;
+  }
+
+  .service h3 {
+    font-size: 22px;
+    margin-bottom: 35px;
+  }
+
+  .servicesGrid > div {
+    flex-direction: column;
+  }
+
+  .servicesGrid h4 {
+    font-size: 20px;
+  }
+
+  .servicesGrid > div > div {
+    width: 100%;
+  }
+
+  .service-right {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
 }

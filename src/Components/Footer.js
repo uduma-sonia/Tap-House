@@ -7,11 +7,11 @@ const Footer = () => {
     <footer className="container pt-36 pb-10 relative">
       <div className="flex justify-center items-center">
         <div className="flex-initial text-center">
-          <h3 className="capitalize text-3xl font-semibold">
-            get notified <br /> about amazing new recipes
+          <h3 className="capitalize  font-semibold">
+            get notified <br className="break" /> about amazing new recipes
           </h3>
 
-          <p className="text-gray-600 text-base mb-5 ml-4 px-64">
+          <p className="text-gray-600 text-base mb-5 ml-4 px-64" id="footer-p">
             Bacon ipsum dolor amet jowl eiusmod ut venison buffalo drumstick.
             Magna laboris cupidatat minim porchetta tongue.
           </p>
@@ -52,7 +52,7 @@ const Footer = () => {
       <img
         src={leaf}
         alt="leaf"
-        className="h-96 w-96 absolute top-0 -left-24"
+        className="h-96 w-96 absolute top-0 -left-24 footer-leaf"
       />
     </footer>
   );
