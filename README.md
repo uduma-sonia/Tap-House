@@ -7,3 +7,6 @@ A full website for restaurant created with React, Firebase, Tailwind CSS  and GS
 #Shopping cart to display items.
 
 #Firestore to recieve customers orders in the backend.
+
+
+hosted at -- https://taphouse.netlify.app/
