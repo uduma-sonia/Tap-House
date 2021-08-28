@@ -23,9 +23,17 @@ footer li {
     padding-right: 0rem;
   }
 
+  footer #links {
+    font-size: 14px;
+  }
+
   .footer-leaf {
     height: 20rem;
     width: 20rem;
     top: -20%;
+  }
+
+  #copyright {
+    font-size: 12px;
   }
 }

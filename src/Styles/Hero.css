@@ -48,14 +48,14 @@
 }
 
 .hero-img {
-  right: 14%;
+  right: 7%;
   -webkit-filter: drop-shadow(5px 5px 5px #6b6969);
   filter: drop-shadow(10px 20px 20px #181414);
 }
 
-.lettuce {
-  right: 16%;
-  top: 18%;
+.hero-lettuce {
+  right: 8%;
+  top: 5%;
   width: 300px;
 }
 
@@ -91,6 +91,10 @@
     display: none;
   }
 
+  .hero-section-left {
+    width: 70%;
+  }
+
   .hero-section-left h2 {
     font-size: 3.5rem;
   }
@@ -115,7 +119,7 @@
 
   .location {
     width: 7rem;
-    height: 2rem;
+    height: 2.5rem;
     font-size: 1rem;
   }
 
@@ -127,14 +131,14 @@
     right: 4%;
     -webkit-filter: drop-shadow(5px 5px 5px #929191);
     filter: drop-shadow(10px 20px 20px #757575);
-    width: 180px;
+    width: 220px;
     bottom: -10%;
   }
 
   .hero-lettuce {
     right: 3%;
-    top: 73%;
-    width: 150px;
+    top: 65%;
+    width: 250px;
   }
 
   .intro > div {

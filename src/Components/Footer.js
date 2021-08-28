@@ -19,14 +19,17 @@ const Footer = () => {
           <form className="flex justify-center mb-5">
             <div className="flex justify-center items-center w-1/4 h-12 bg-white rounded-3xl">
               <input
-                className="h-full outline-none text-xl"
+                className="h-full outline-none text-xl border"
                 placeholder="E-Mail"
               />
               <i className="fas fa-arrow-circle-right"></i>
             </div>
           </form>
 
-          <ul className="text-gray-600 text-base font-semibold flex capitalize justify-center">
+          <ul
+            className="text-gray-600 text-base font-semibold flex capitalize justify-center"
+            id="links"
+          >
             <li>company</li>
             <li className="mx-5">learn more</li>
             <li>get in touch</li>
@@ -45,7 +48,9 @@ const Footer = () => {
           <li>
             <i className="fab fa-twitter"></i>
           </li>
-          <li className="ml-5 font-bold">@2021 Tap House</li>
+          <li className="ml-5 font-bold" id="copyright">
+            @2021 Tap House
+          </li>
         </ul>
       </div>
 
