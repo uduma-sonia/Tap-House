@@ -104,7 +104,8 @@
   }
 
   .product-img img {
-    height: 12rem;
+    height: 14rem;
+    object-fit: cover;
   }
 
   .product-card-detail > div {

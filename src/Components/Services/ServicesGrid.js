@@ -6,7 +6,7 @@ import eating from "../../images/eating.svg";
 const ServicesGrid = () => {
   return (
     <div className="my-28 relative z-10 servicesGrid">
-      {/* <div className="bg-dot z-0"></div> */}
+      <div className="bg-dot z-0"></div>
       <div className="flex justify-between z-40 ">
         {/* LEFT GRID */}
         <div className="flex-initial w-2/4 z-50">

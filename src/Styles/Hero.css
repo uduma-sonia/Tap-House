@@ -131,6 +131,7 @@
     right: 4%;
     -webkit-filter: drop-shadow(5px 5px 5px #929191);
     filter: drop-shadow(10px 20px 20px #757575);
+    -moz-filter: drop-shadow(10px 20px 20px #757575);
     width: 220px;
     bottom: -10%;
   }
