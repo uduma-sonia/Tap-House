@@ -17,9 +17,12 @@ const Footer = () => {
           </p>
 
           <form className="flex justify-center mb-5">
-            <div className="flex justify-center items-center w-1/4 h-12 bg-white rounded-3xl">
+            <div
+              className="flex justify-center items-center w-1/4 h-12 bg-white rounded-3xl"
+              id="input-container"
+            >
               <input
-                className="h-full outline-none text-xl border"
+                className="h-full outline-none text-xl border pl-3"
                 placeholder="E-Mail"
               />
               <i className="fas fa-arrow-circle-right"></i>

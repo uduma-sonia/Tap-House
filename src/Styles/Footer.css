@@ -16,6 +16,7 @@ footer li {
 @media only screen and (max-width: 500px) {
   footer h3 {
     font-size: 22px;
+    margin-bottom: 20px;
   }
 
   #footer-p {
@@ -23,8 +24,16 @@ footer li {
     padding-right: 0rem;
   }
 
+  footer #input-container {
+    height: 2.5rem;
+  }
+
   footer #links {
     font-size: 14px;
+  }
+
+  footer #input-container input {
+    width: 220px;
   }
 
   .footer-leaf {
